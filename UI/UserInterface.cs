@@ -14,6 +14,6 @@ public class UserInterface
         p.Status = true;
         p.save();
 
-        pessoa.delete();
+        pessoaByPk.delete();
     }
 }
